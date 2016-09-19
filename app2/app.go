@@ -15,4 +15,5 @@ func main() {
     fmt.Println("Starting DC/OS-101 App ")
     http.HandleFunc("/", handler)
     http.ListenAndServe(":" + os.Getenv("PORT0") , nil)
-}
+)
+
