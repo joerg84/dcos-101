@@ -1,12 +1,12 @@
 {
-  "id": "/dcos-101/oomApp",
-  "cmd": "chmod u+x app && ./oomApp",
+  "id": "/dcoc-101/oom-app",
+  "cmd": "chmod u+x oomApp && ./oomApp",
   "args": null,
   "user": null,
   "env": null,
   "instances": 1,
   "cpus": 1,
-  "mem": 128,
+  "mem": 32,
   "disk": 0,
   "gpus": 0,
   "executor": null,
@@ -42,5 +42,3 @@
   ],
   "requirePorts": false
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
