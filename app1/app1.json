@@ -1,0 +1,23 @@
+{
+  "volumes": null,
+  "id": "/dcos-101/app1",
+  "cmd": "while true; do python $MESOS_SANDBOX/app1.py; done",
+  "instances": 1,
+  "cpus": 1,
+  "mem": 128,
+  "disk": 0,
+  "gpus": 0,
+  "fetch": [
+    {
+      "uri": "https://raw.githubusercontent.com/joerg84/dcos-101/master/app1/app1.py"
+    }
+  ],
+  "container": {
+    "docker": {
+      "image": "mesosphere/dcos-101",
+      "forcePullImage": false,
+      "privileged": false,
+      "network": "HOST"
+    }
+  }
+}
