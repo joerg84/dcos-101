@@ -13,6 +13,7 @@
     }
   ],
   "container": {
+    "type" : "DOCKER",
     "docker": {
       "image": "mesosphere/dcos-101",
       "forcePullImage": false,
