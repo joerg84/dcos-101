@@ -1,5 +1,5 @@
 {
-  "id": "/dcoc-101/oom-app",
+  "id": "/dcos-101/oom-app",
   "cmd": "chmod u+x oomApp && ./oomApp",
   "args": null,
   "user": null,
